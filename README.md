@@ -35,6 +35,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 - OrignalLink: http://imgur.com/tKMNVFK
 - [BeeInstagram gif walkthrough](http://i.imgur.com/tKMNVFK.gifv)
+- [youtube](https://www.youtube.com/watch?v=stT61gS2s7s&feature=youtu.be)
 
 
 # Notes
