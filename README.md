@@ -37,9 +37,9 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough 
 
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough of implemented user stories (Resize the browser to see original video'size)
 
-- [Imgur](http://i.imgur.com/tKMNVFK.gifv)
+- [Imgur](http://i.imgur.com/tKMNVFK.gifv) 
 
 - [Youtube](https://www.youtube.com/watch?v=stT61gS2s7s&feature=youtu.be)
 
