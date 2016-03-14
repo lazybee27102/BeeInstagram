@@ -16,13 +16,13 @@ The following functionality is completed:
 
 The following optional features are implemented:
 
-* [] Add pull-to-refresh for popular stream with SwipeRefreshLayout (I didn't use the scrollview,I used tabview)
+* [ ] Add pull-to-refresh for popular stream with SwipeRefreshLayout (I didn't use the scrollview,I used tabview)
 * [X] Show latest comment for each photo 
 * [X] Display a nice default placeholder graphic for each image during loading (read more about Picasso)
 * [X] Improve the user interface through styling and coloring
 * [X] Allow user to view all comments for an image within a separate activity or dialog fragment 
-* [] Allow video posts to be played in full-screen using the
-* []Apply the popular Butterknife annotation library to reduce view boilerplate.
+* [ ] Allow video posts to be played in full-screen using the
+* [ ]Apply the popular Butterknife annotation library to reduce view boilerplate.
 
 The following **additional** features are implemented:
 
