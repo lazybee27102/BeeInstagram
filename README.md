@@ -39,9 +39,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://imgur.com/tKMNVFK]http://i.imgur.com/tKMNVFK.gifv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+- [Imgur](http://i.imgur.com/tKMNVFK.gifv)
 
-- [youtube](https://www.youtube.com/watch?v=stT61gS2s7s&feature=youtu.be)
+- [Youtube](https://www.youtube.com/watch?v=stT61gS2s7s&feature=youtu.be)
 
 
 ## Notes
