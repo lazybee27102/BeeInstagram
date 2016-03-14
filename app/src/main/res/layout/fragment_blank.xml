@@ -1,0 +1,92 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".PhotoShowFragment">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_height"
+            tools:targetApi="lollipop"
+            app:layout_scrollFlags="scroll|enterAlways">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:id="@+id/imageView_toolbar_user_profile"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Medium Text"
+                    android:id="@+id/textView_toolbar_userName"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/imageView_toolbar_user_profile"
+                    android:layout_toEndOf="@+id/imageView_toolbar_user_profile"
+                    android:textColor="#ffffff"
+                    android:paddingLeft="10dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView_location_icon"
+                    android:layout_toEndOf="@+id/imageView_toolbar_user_profile"
+                    android:layout_below="@+id/textView_toolbar_userName"
+                    android:layout_toRightOf="@+id/imageView_toolbar_user_profile"
+                    android:src="@drawable/ic_edit_location_white_18dp"
+                    android:paddingLeft="10dp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/textView_toolbar_location"
+                    android:layout_below="@+id/textView_toolbar_userName"
+                    android:layout_toRightOf="@+id/imageView_location_icon"
+                    android:layout_toEndOf="@+id/imageView_location_icon"
+                    android:textColor="#ffffff"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Small Text"
+                    android:id="@+id/textView_toolbar_time"
+                    android:textColor="#ffffff"
+                    android:layout_alignBottom="@+id/textView_toolbar_userName"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:paddingRight="10dp" />
+
+            </RelativeLayout>
+        </Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView_comments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"></android.support.v7.widget.RecyclerView>
+
+
+
+</android.support.design.widget.CoordinatorLayout>
