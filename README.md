@@ -39,7 +39,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/tKMNVFK.gifv)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/tKMNVFK.gifv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 - [youtube](https://www.youtube.com/watch?v=stT61gS2s7s&feature=youtu.be)
 
@@ -56,7 +56,7 @@ Here's a walkthrough of implemented user stories:
 
 ## License
 
-    Copyright [yyyy] [Nguyen Hoang Phat]
+    Copyright [2016] [Nguyen Hoang Phat]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
