@@ -33,9 +33,8 @@ The following **additional** features are implemented:
 - I created a globalVariable Class which can resize the layout for almost device (I depend on the percent of layout height(weight))
 
 Here's a walkthrough of implemented user stories:
-* [X] OrignalLink: http://i.imgur.com/QxZzgbn.gifv
-
-<img src='http://imgur.com/tKMNVFK' title='BeeInstagram Walkthrough' width='' alt='BeeInstagram Walkthrough' />
+- OrignalLink: http://imgur.com/tKMNVFK
+<img src='http://imgur.com/tKMNVFK' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 # Notes
