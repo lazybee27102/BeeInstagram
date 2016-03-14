@@ -29,7 +29,11 @@ The following **bonus** features are implemented:
 
 The following **additional** features are implemented:
 
-* [X] List anything else that you can get done to improve the app functionality!
+* [X] Use RecyclerView with 2 Customize ViewHolder (depend on item type,recyclerView will change style of item inside) 
+* [X] Extend AsyncHttpClient so I can process callback function (Using a part of Observer design pattern)
+* [X] Using TabView and ViewPager for loading Image and Video (I found it a crazy thing, I can use Horizontal RecyclerView instead)
+* [X] Using Toolbar "scrolling Enter Always animation" (CoordinatorLayout,nestedlayout,appbarlayout with toolbar inside)
+* [X] I created a globalVariable Class which can resize the layout for almost device (I depend on the percent of layout height(weight))
 
 ## Video Walkthrough 
 
@@ -40,11 +44,6 @@ Here's a walkthrough of implemented user stories:
 
 
 ## Notes
-- Use RecyclerView with 2 Customize ViewHolder (depend on item type,recyclerView will change style of item inside) 
-- Extend AsyncHttpClient so I can process callback functioc (Using a part of Observer design pattern)
-- Using TabView and ViewPager for loading Image and Video (I found it a crazy thing, I can use Horizontal RecyclerView instead)
-- Using Toolbar "scrolling Enter Always animation"
-- I created a globalVariable Class which can resize the layout for almost device (I depend on the percent of layout height(weight))
 - It's difficult to use RecyclerView with multiple style and use it inside ScrollView Hierachy :(
 - The performance isn't hight because I don't using the HorizontalRecyclerView at the bottom (I used my customized tablayout)
 - The design is very bad,I don't know how to arrange layouts together clearly
